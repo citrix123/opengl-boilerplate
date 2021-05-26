@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-
+project(OPENGLEXAMPLES)
 set(GLFW_SOURCE_DIR "external/glfw")
 set(GLM_SOURCE_DIR "external/glm")
 set(GLEW_SOURCE_DIR "external/glew")
