@@ -153,12 +153,16 @@ int main(void) {
 
     GLuint program = init();
 
+    int i = 0;
     while (!glfwWindowShouldClose(window)) {
         render(window, program);
 
         glfwSwapBuffers(window);
         glfwPollEvents();
         //glfwWaitEvents();
+        if (i == 3) break;
+
+        i++;
     }
 
     glfwDestroyWindow(window);
